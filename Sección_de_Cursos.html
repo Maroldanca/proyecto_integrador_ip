@@ -27,6 +27,7 @@
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
 
 
 </head>
@@ -83,99 +84,151 @@
     </header>
     </div>
 
-    <section style="margin: 100px; text-align: center;">
+    <body>
+        <!--<section ....... </section>-->
 
-
-        <h1 style="margin: 100px;">Cursos <span style="background-color:#023b48; ;"
-                class="badge badge-secondary">Actuales</span></h1>
-
-        <div style="text-align: center;">
-            <div class="media">
-                <img style="width: 300px;"
-                    src="https://firebasestorage.googleapis.com/v0/b/proyectos-mr.appspot.com/o/SENA.jpg?alt=media&token=e512d60e-f9e4-4d5c-b1a6-c443714845da&_gl=1*tm4c0t*_ga*MTExMzMzNDcwMS4xNjk0NTY3MDU2*_ga_CW55HF8NVT*MTY5OTA0MTMyMC4xMC4xLjE2OTkwNDIxNjAuMjMuMC4w"
-                    class="mr-3" alt="...">
-                <div class="media-body">
-                    <h5 class="mt-0">Sena Sofia Plus</h5>
-                    Formación gratuita a millones de colombianos que se benefician con programas técnicos,
-                    tecnológicos y complementarios. Aprender a manejar distintas herramientas en base a la
-                    contratacion y la logica de codigos es fundamental para el desarrollo laboral de nuestros
-                    usuarios
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="media mt-3">
-                        <a class="mr-3" href="">
-                            <img style="width: 300px; position: absolute; left: 100px;"
-                                src="https://firebasestorage.googleapis.com/v0/b/proyectos-mr.appspot.com/o/Coursera.jpg?alt=media&token=9192f5ba-c630-483d-8001-ebb0cfbea54f&_gl=1*mqf7jg*_ga*MTExMzMzNDcwMS4xNjk0NTY3MDU2*_ga_CW55HF8NVT*MTY5OTA0MTMyMC4xMC4xLjE2OTkwNDIxNzMuMTAuMC4w"
-                                class="mr-3" alt="...">
-                        </a>
-                        <div class="media-body">
-                            <h5 class="mt-0">Coursera</h5>
-                            Se especializa principalmente en la educacion de los inscritos en base a distintas areas de
-                            conocimiento, tales como la tecnologia y las ciencias. Principalmente una tecnica para una
-                            mejora cognitiva y mecanica en las distintas logicas de la programacion
+     <section>
+        <div class="min-h-screen bg-gray-100 p-3 relative">
+            <div class="w-96 mx-auto" style="scroll-snap-type: x mandatory;">
+                <!-- first -->
+                <div class="">
+                    <input class="sr-only peer" type="radio" name="carousel" id="carousel-1" checked />
+                    <!-- content #1 -->
+                    <div
+                        class="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+                        <img class="rounded-t-lg w-96 h-64"
+                            src="https://firebasestorage.googleapis.com/v0/b/proyectos-mr.appspot.com/o/SENA.jpg?alt=media&token=e512d60e-f9e4-4d5c-b1a6-c443714845da&_gl=1*tm4c0t*_ga*MTExMzMzNDcwMS4xNjk0NTY3MDU2*_ga_CW55HF8NVT*MTY5OTA0MTMyMC4xMC4xLjE2OTkwNDIxNjAuMjMuMC4w"
+                            alt="" />
+                        <div class="py-4 px-8">
+                            <h1 class="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">Lorem
+                                ipsum dolor sit amet consectetur adipisicing.
+                            </h1>
+                            <p class="hover:cursor-pointer py-3 text-gray-600 leading-6">Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!-- controls -->
+                        <div class="absolute top-1/2 w-full flex justify-between z-20">
+                            <label for="carousel-3"
+                                class="inline-block text-red-600 cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </label>
+                            <label for="carousel-2"
+                                class="inline-block text-red-600 cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- second -->
+                <div class="">
+                    <input class="sr-only peer" type="radio" name="carousel" id="carousel-2" />
+                    <!-- content #2 -->
+                    <div
+                        class="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+                        <img class="rounded-t-lg w-96 h-64"
+                            src="https://images.unsplash.com/photo-1628191139360-4083564d03fd?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=384&q=80"
+                            alt="" />
+                        <div class="py-4 px-8">
+                            <h1 class="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">
+                                Scelerisque eleifend donec pretium vulputate sapien.
+                            </h1>
+                            <p class="hover:cursor-pointer py-3 text-gray-600 leading-6">Egestas diam in arcu cursus
+                                euismod
+                                quis. Fusce id velit ut tortor. Congue quisque egestas diam in arcu cursus euismod quis.
+                            </p>
+                        </div>
+                        <!-- controls -->
+                        <div class="absolute top-1/2 w-full flex justify-between z-20">
+                            <label for="carousel-1"
+                                class="inline-block text-blue-600 cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </label>
+                            <label for="carousel-3"
+                                class="inline-block text-blue-600 cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- three -->
+                <div class="">
+                    <input class="sr-only peer" type="radio" name="carousel" id="carousel-3" />
+                    <!-- content #3 -->
+                    <div
+                        class="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+                        <img class="rounded-t-lg w-96 h-64"
+                            src="https://images.unsplash.com/photo-1628718120482-07e03fe361dd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=384&q=80"
+                            alt="" />
+                        <div class="py-4 px-8">
+                            <h1 class="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">
+                                Consectetur purus ut faucibus pulvinar elementum.
+                            </h1>
+                            <p class="hover:cursor-pointer py-3 text-gray-600 leading-6">Aliquam ultrices sagittis orci
+                                a
+                                scelerisque purus semper. Quisque id diam vel quam elementum pulvinar. Facilisis magna
+                                etiam
+                                tempor orci eu lobortis elementum.
+                            </p>
+                        </div>
+                        <!-- controls -->
+                        <div class="absolute top-1/2 w-full flex justify-between z-20">
+                            <label for="carousel-2"
+                                class="inline-block text-yellow-600 cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </label>
+                            <label for="carousel-1"
+                                class="inline-block text-yellow-600 cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </label>
                         </div>
                     </div>
                 </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        </sele>
+</section>
 
-            <div class="media mt-3">
-                <a class="mr-3" href="">
-                    <img style="width: 300px;"
-                        src="https://firebasestorage.googleapis.com/v0/b/proyectos-mr.appspot.com/o/Platzi-day.jpg?alt=media&token=bc2a5b44-4197-45a2-b1cc-90cc0ed5ade1&_gl=1*94dqgt*_ga*MTExMzMzNDcwMS4xNjk0NTY3MDU2*_ga_CW55HF8NVT*MTY5OTA0MTMyMC4xMC4xLjE2OTkwNDMzNDcuNTkuMC4w"
-                        class="mr-3" alt="...">
-                </a>
-                <div class="media-body">
-                    <h5 class="mt-0">Plazti</h5>
-
-
-                    Udemy.com es una plataforma de aprendizaje en línea. Está dirigido a adultos
-                    profesionales.​ A diferencia de los programas académicos MOOC conducidos por
-                    tradicionales cursos de trabajo creados por las universidades, Udemy utiliza
-                    contenido de creadores en línea para vender y así conseguir ganancias.
-
-
-                </div>
+            <div class="gap-8 columns-3 ...">
+                <img class="w-full aspect-video ..." src="https://firebasestorage.googleapis.com/v0/b/proyecto1-11e37.appspot.com/o/SENA%20(1).jpg?alt=media&token=cb76dcf6-1b89-4dc8-8b21-5cffc7bf155d" />
+                <img class="w-full aspect-square ..." src="https://firebasestorage.googleapis.com/v0/b/proyecto1-11e37.appspot.com/o/Udemy-logo.jpg?alt=media&token=ab839855-6649-47fe-8cca-e331b9eaeec0" />
+                <img class="w-full aspect-square ..." src="https://firebasestorage.googleapis.com/v0/b/proyecto1-11e37.appspot.com/o/Platzi-day.jpg?alt=media&token=ac7285b1-15eb-468b-8e46-2661f0efb14f" />
+                <img class="w-full aspect-square ..." src="https://firebasestorage.googleapis.com/v0/b/proyecto1-11e37.appspot.com/o/Coursera.jpg?alt=media&token=f0810cc1-0304-44e3-beb6-edc12e7c14c9" />
+                
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="media mt-3">
-                <a class="mr-3" href="">
-                    <img style="width: 300px;"
-                        src="https://firebasestorage.googleapis.com/v0/b/proyectos-mr.appspot.com/o/Udemy-logo.jpg?alt=media&token=3f7385c7-1248-4c70-a57d-c85cd347a960&_gl=1*13pvleo*_ga*MTExMzMzNDcwMS4xNjk0NTY3MDU2*_ga_CW55HF8NVT*MTY5OTA0MTMyMC4xMC4xLjE2OTkwNDM0MTkuNTguMC4w"
-                        class="mr-3" alt="...">
-                </a>
-                <div class="media-body">
-                    <h5 class="mt-0">Udemy</h5>
 
 
-                    Udemy.com es una plataforma de aprendizaje en línea. Está dirigido a adultos
-                    profesionales.​ A diferencia de los programas académicos MOOC conducidos por
-                    tradicionales cursos de trabajo creados por las universidades, Udemy utiliza
-                    contenido de creadores en línea para vender y así conseguir ganancias.
 
 
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-
-    </section>
-
-</body>
+    </body>
 
 </html>
