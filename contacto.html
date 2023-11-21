@@ -11,7 +11,31 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
+<style>
+body {
+      background: url(https://firebasestorage.googleapis.com/v0/b/xhotto-d02a8.appspot.com/o/imagicccontacto.jpg?alt=media&token=ad622cd4-352b-4dba-a51c-b7c89ac9102d) no-repeat center center fixed;
+      background-size: cover;
+      max-width: 100%;
+      height: auto;
+}
+.form_section {
+      position: absolute;
+      top: 100px;
+      right: 30%;
+      width: 28%; 
+      background-color: rgba(255, 255, 255, 0.185); 
+      padding: 20px;
+      border-radius: 9px; 
+}
 
+.form_container {
+    border-radius: 10px;
+    
+}
+
+  
+
+</style>
   <title>ICC</title>
 
   <!-- slider stylesheet -->
@@ -47,7 +71,7 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
+           
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
@@ -71,7 +95,7 @@
                 <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-10">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
             </div>
@@ -92,17 +116,17 @@
 
   <section class="map_section">
     <div id="map" class="h-100 w-100">
-      <div class="img-box">
-        
-      </div>
-  
+
       <div class="form_container">
         <div class="row">
-          <div class="col-md-10 col-sm-10 offset-md-4">
+          <div class="col-md-8 col-sm-8 offset-md-1">
             <form action="">
               <div class="text-center">
-                <h3>Contactanos</h3>
-              </div>
+                <div style="border-radius: 10px; background-color: #034959; padding: 5px; margin-top: 10px;">
+                  <h3 style="color: white;">Contactanos</h3>
+                </div>
+                
+              
               <div>
                 <input type="text" placeholder="Nombre" class="pt-3">
               </div>
@@ -119,7 +143,10 @@
                 <input type="text" placeholder="NIT">
               </div>
               <div>
-                <textarea class="message-box" placeholder="Mensaje"></textarea>
+                <textarea class="message-box-with-margin" style="width: 85%; height: 130px; margin-top: 20px;" placeholder="Cuentanos"></textarea>
+
+
+
                 <!-- Campo de entrada para el mensaje -->
               </div>
               
